@@ -60,7 +60,7 @@ def winner(board)
   index = []
   index = won?(board)
   if index == nil
-    return false
+    return nil
   elsif board[index[0]] == "X"
     return "X"
   else board [index[0]] == "O"
